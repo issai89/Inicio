@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Formu_Registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tonywonka.inicio.Registro">
+
+    <LinearLayout
+        android:id="@+id/ContenedorReg"
+        android:layout_width="353dp"
+        android:layout_height="474dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="18dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/nombre" />
+
+        <EditText
+            android:id="@+id/Apat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/appellidopaterno" />
+
+        <EditText
+            android:id="@+id/Amater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/apellidomaterno" />
+
+        <EditText
+            android:id="@+id/Cel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="@string/celular" />
+
+        <EditText
+            android:id="@+id/emailR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/Nusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/registrodeusuaro" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/password" />
+
+        <Button
+            android:id="@+id/End1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="@string/finalizar" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
